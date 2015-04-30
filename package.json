@@ -1,0 +1,45 @@
+{
+  "name": "todo_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3000 NODE_ENV=development LOCALE=en nodemon main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.1.13",
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "babel-runtime": "^5.1.13",
+    "co": "^4.5.2",
+    "co-views": "^0.3.0",
+    "jade": "^1.9.2",
+    "koa": "^0.20.0",
+    "koa-cors": "0.0.14",
+    "koa-route": "^2.4.1",
+    "koa-static": "^1.4.9",
+    "lodash": "^3.7.0",
+    "object-assign": "^2.0.0",
+    "superagent": "^1.2.0",
+    "webpack": "^1.8.11"
+  },
+  "devDependencies": {
+    "bower-webpack-plugin": "^0.1.8",
+    "css-loader": "^0.12.0",
+    "es6-promise": "^2.1.1",
+    "events": "^1.0.2",
+    "file-loader": "^0.8.1",
+    "flux": "^2.0.3",
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4",
+    "keymirror": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "react": "^0.13.2",
+    "style-loader": "^0.12.1",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.8.11"
+  }
+}
